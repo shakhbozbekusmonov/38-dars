@@ -1003,8 +1003,13 @@ form {
 }
 
 
-@media only screen and (max-width: 375px) {
-    
+@media only screen and (max-width: 393px) {
+   form {
+    display: flex;
+    flex-direction: column;
+   }  
+
+
     .best_selling_input {
         width: 320px;
         margin: 0 auto;
