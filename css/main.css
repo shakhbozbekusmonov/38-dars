@@ -1270,7 +1270,7 @@ div[class*="click"] {
     margin-top: 16px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 393px) {
     .footer_top_list {
         margin: 0 auto;
         text-align: center;
