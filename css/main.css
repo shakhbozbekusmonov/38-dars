@@ -1003,7 +1003,7 @@ form {
 }
 
 
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 768px) {
    form {
     display: flex;
     flex-direction: column;
@@ -1275,7 +1275,7 @@ div[class*="click"] {
     margin-top: 16px;
 }
 
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 768px) {
     .footer_top_list {
         margin: 0 auto;
         text-align: center;
