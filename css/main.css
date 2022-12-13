@@ -1304,11 +1304,5 @@ div[class*="click"] {
         margin-left: 0;
     }
 }
-@media only screen and (max-width: 830px){
-    
-    .first_paragraph{
-        font-size: 20px;
-    }
-}
 
 /* FOOTER STYLES END */
