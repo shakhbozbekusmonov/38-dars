@@ -811,3 +811,134 @@ a{
     margin-right: 8px;
 }
 /******* BEST SECTION END *******/
+
+/* SERVICE STYLES START */
+
+.service {
+    background-color: var(--main-bg-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.service__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-title {
+    margin: 0;
+    margin: 0px auto 16px auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+
+.service-desc {
+    max-width: 663px;
+    margin: 0;
+    margin-bottom: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: var(--hero-desc-color);
+}
+
+.service-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-end_left>ul {
+    list-style: none;
+}
+
+.service-end_right>ul {
+    list-style: none;
+}
+
+.service-end_left>ul>li>h3 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: var(--header-text-color);
+}
+
+.service-end_left>ul>li>p {
+    margin: 0;
+    max-width: 353px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: var(--main-subtitle-color);
+    margin-bottom: 50px;
+    margin-top: 14px;
+}
+
+.service-end_right>ul>li>h3 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: var(--header-text-color);
+}
+
+.service-end_right>ul>li>p {
+    margin: 0;
+    max-width: 353px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: var(--main-subtitle-color);
+    margin-bottom: 50px;
+    margin-top: 14px;
+}
+
+/* SERVICE MEDIA STYLES START*/
+
+@media only screen and (max-width: 710px) {
+    .service-end {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-title {
+        font-size: 30px;
+    }
+    .service-desc {
+        font-size: 15px;
+    }
+}
+
+/* SERVICE MEDIA STYLES END */
+
+/* SERVICE STYLES END */
