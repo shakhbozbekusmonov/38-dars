@@ -699,6 +699,7 @@ a{
 }
 
 .cards-list {
+    position: relative;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -706,7 +707,6 @@ a{
 }
 
 .cards-list__items {
-    position: relative;
     width: 346px;
     background: #FFFFFF;
     border-radius: 10px;
@@ -719,7 +719,7 @@ a{
 
 .cards-list::after {
     position: absolute;
-    top: calc(50% + 490px);
+    top: calc(50%);
     right: calc(50% - 660px);
     content: "";
     width: 40px;
@@ -733,7 +733,7 @@ a{
 
 .cards-list::before {
     position: absolute;
-    top: calc(50% + 490px);
+    top: calc(50%);
     right: calc(50% + 620px);
     content: "";
     width: 40px;
