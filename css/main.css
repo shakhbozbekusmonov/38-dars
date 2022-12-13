@@ -69,6 +69,9 @@ body{
     background-color: #fff;
 }
 
+li{
+    list-style: none;
+}
 img{
     max-width: 100%;
     height: auto;
@@ -96,6 +99,324 @@ img{
     padding-left: 20px;
 }
 
+
+ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/******************* SITE TOP STYLES START *********************/
+.site-top{
+    background-image: url("../images/hero-top-bg.png");
+    background-position: right top;
+    background-size: 524px;
+    background-repeat: no-repeat;
+}
+
+.site-top-liner{
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 482px;
+    background-image: linear-gradient(90deg, #c9fdd600 0%, #C9FDD6 100%);
+    border-radius: 0px 0px 0px 450px;
+    z-index: 99;
+}
+
+/* SITE HEADER STYLES START */
+.site-header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.site-header__logo-img{
+    width: 111px;
+    height: 59px;
+}
+
+.site-header__end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 660px;
+}
+
+.sitenav__list{
+    display: flex;
+}
+
+.sitenav__item{
+    margin-right: 30px;
+}
+
+.sitenav__link{
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--header-text-color);
+}
+
+.site-header__sign{
+    display: flex;
+    align-items: center;
+}
+
+.site-header__login{
+    margin-right: 25px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--main-btn-color);
+}
+
+.site-header__signup{
+    color: var(--hero-desc-color);
+}
+
+.site-header__buy-btn{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    background-image: url("../images/korzina.svg");
+}
+/* SITE HEADER STYLES END */
+
+/* SITE HERO STYLES START */
+.hero-section{
+    padding-top: 103px;
+    padding-bottom: 136px;
+}
+
+.hero-section__wrapper{
+    position: relative;
+}
+
+.hero-section__img{
+    position: absolute;
+    top: -32px;
+    right: calc(50% - -28px);
+    width: 750px;
+}
+
+.fast-delivery{
+    position: absolute;
+    top: 316px;
+    left: -132px;
+    width: 100%;
+    max-width: 317px;
+    padding: 24px 28px 24px 109px;
+    background-image: linear-gradient(90deg, rgba(126, 247, 156, 0.35) 2.38%, rgba(255, 255, 255, 0.2275) 100%);
+    background-image: url("../images/deliver.svg");
+    background-repeat: no-repeat;
+    background-position: 28px center; 
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+
+.fast-delivery__text{
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--main-text-color);
+}
+
+.hero-section__content-end{
+    width: 100%;
+    max-width: 582px;
+    margin-left: auto;
+}
+
+.hero-section__title{
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    color: #030C0C;
+}
+
+.hero-section__desc{
+    margin-top: 0;
+    margin-bottom: 72px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    color: var(--hero-desc-color);    
+}
+
+.hero-section__btn{
+    display: inline-block;
+    padding: 22px 48px;
+    background-color: var(--main-btn-color);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #fff;
+}
+
+.hero-section__flovers-list{
+    position: absolute;
+    top: 800px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 778px;
+}
+
+.hero-section__flover-item{
+    position: relative;
+    width: 100%;
+    padding: 152px 25px 22px;
+    max-width: 248px;
+    background: linear-gradient(0deg, #91C89E 0%, rgba(219, 249, 226, 0) 100%);
+    border-radius: 10px;
+}
+
+.hero-section__flover-item:nth-child(2) .flover-item__img{
+    left: 35px;
+}
+
+.flover-item__img{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+}
+
+.flover-item__price{
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    padding: 2px 16px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--main-btn-color);    
+}
+
+.flover-item__name{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--header-text-color);    
+}
+/* SITE HERO STYLES END */
+/******************* SITE TOP STYLES END *********************/
+
+/*******BENAFITS SECTION STYLE START*****/
+.benefits-section{
+    
+    background: #F1FEF4;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+.site_benafits_item{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 59px;
+    text-align: center;
+    align-items: center;
+    color: var(--main-text-color);
+    
+}
+
+.site_benafits_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site_benafits_desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 285px;
+}
+
+
+.shipping_text{
+    width: 156px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 0;
+    color: var(--header-text-color);
+}
+.site_benafits_desc::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 43px;
+    
+    background-image: url(/images/dastavka.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.site_benafits_desc:nth-child(1)::before{
+    width: 50px;
+    height: 51px;
+    
+    background-image: url(/images/nishon.svg);
+    background-repeat: no-repeat;
+    
+}
+.site_benafits_desc:nth-child(3)::before{
+    width: 50px;
+    height: 51px;
+    background-image: url(/images/galichka.svg);
+    background-repeat: no-repeat;
+    
+}
+
+.site_benafits_subtitle{
+    width: 285px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+    color: var(--main-subtitle-color);
+    
+}
+
+
+@media only screen and (max-width:768px) {
+    
+    .site_benafits_title{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/*******BENAFITS SECTION STYLE END*****/
 
 /* ****** PLANTATION SECTION START ****** */
 .plantation-section {
@@ -272,5 +593,4 @@ img{
 /* ***** PLANTATION SECTION RESPONSIVE END ***** */
 
 /* ****** PLANTATION SECTION START ****** */
-
 
